@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <a class="btn_voltar" href="home.html">voltar</a>
+    <div class="container">
+        <div class="form-container" id="formulario_login">
+          <h1>Login</h1>
+          <form>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+            <button type="submit">Entrar</button>
+          </form>
+          <p>Não tem uma conta? <a href="#" id="link_cadastro">Cadastre-se</a></p>
+        </div>
+
+        <div class="form-container" id="formulario_cadastro" style="display: none;">
+          <h1>Cadastre-se</h1>
+          <form>
+            <label for="novo_usuario">Usuário</label>
+            <input type="text" id="novo_usuario" name="novo_usuario" required>
+            <label for="novo_email">Email</label>
+            <input type="email" id="novo_email" name="novo_email" required>
+            <label for="nova_senha">Senha</label>
+            <input type="password" id="nova_senha" name="nova_senha" required>
+            <button type="submit">Cadastrar</button>
+          </form>
+          <p>Já tem uma conta? <a href="#" id="link_login">Entrar</a></p>
+        </div>
+    </div>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>

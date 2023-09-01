@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Copperplate, Papyrus, fantasy', sans-serif;
+  background-color: #fff; /* Alterado para branco (#fff) */
+}
+
+.btn_voltar {
+  position: absolute;
+  text-transform: uppercase;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #900;
+  color: goldenrod;
+  border: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #900;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  color: goldenrod; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: goldenrod;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: goldenrod; 
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #222;
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 10px;
+  background-color: #ffd700;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #b86b3d;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd700;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #222;
+}
+
+p {
+  text-align: center;
+  margin: 8px;
+}
